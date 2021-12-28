@@ -4,12 +4,12 @@ import "./style.css";
 import Card from "../Card";
 import { data } from "../../Data";
 import { Container } from "@material-ui/core";
-const Recent = () => {
+const RatedCard = () => {
   return (
     <Container maxWidth="xl">
       <Grid container>
         <Grid item xs={12} className="card">
-          <h2>Recently added</h2>
+          <h2>Rated Nfts</h2>
           <Grid item xs={12} container item>
             {data.map((menuItem) => {
               return (
@@ -25,4 +25,4 @@ const Recent = () => {
   );
 };
 
-export default Recent;
+export default RatedCard;

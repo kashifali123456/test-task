@@ -1,8 +1,9 @@
 import React from "react";
-import { Grid, Link } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
 import logoimg from "../../Assets/Images/logo.png";
 import { Button } from "@material-ui/core";
+import { Link } from "react-router-dom";
 import "./style.css";
 const Navbar = () => {
   return (
@@ -46,9 +47,12 @@ const Navbar = () => {
           </div>
         </Grid>
         <Grid item md={3} xs={12} className="btns" justifyContent="center">
-          <Button id="btns" variant="contained" className="btn1">
-            Create
-          </Button>
+          <Link to="/bidpage">
+            {" "}
+            <Button id="btns" variant="contained" className="btn1">
+              Create
+            </Button>
+          </Link>
           <Button id="btns" variant="contained" className="btn2">
             Sign In
           </Button>

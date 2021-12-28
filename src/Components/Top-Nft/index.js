@@ -9,6 +9,7 @@ const TopNft = () => {
     <Container maxWidth="xl">
       <Grid container>
         <Grid item xs={12} className="card">
+          <h2>Top Nfts</h2>
           <Grid item xs={12} container item>
             {data.map((menuItem) => {
               return (
