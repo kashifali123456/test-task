@@ -5,7 +5,7 @@ import Button from "@material-ui/core/Button";
 import cotton from "../../Assets/Images/cotton4.jpg";
 const Header = () => {
   return (
-    <Grid container justifyContent="center">
+    <Grid container justifyContent="center" className="Hdr">
       <Grid
         container
         item
@@ -29,11 +29,8 @@ const Header = () => {
           </Button>
         </Grid>
       </Grid>
-      <Grid container item xs={12} md={6}>
-        <div>
-          {" "}
-          <img src={cotton} alt="" />
-        </div>
+      <Grid container item xs={12} md={6} className="cotton">
+        <img src={cotton} alt="" />
       </Grid>
     </Grid>
   );

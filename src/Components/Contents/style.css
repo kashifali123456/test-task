@@ -1,0 +1,16 @@
+.hr {
+  position: relative;
+  top: -54px;
+  width: 100px;
+  height: 0px;
+  border: 2px solid #e5e5e5;
+  transform: rotate(90deg);
+}
+.future {
+  border-left: 1px solid white;
+  color: white;
+  padding: 15px;
+}
+.Cnt {
+  padding-top: 5rem;
+}
