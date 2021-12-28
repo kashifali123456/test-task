@@ -5,19 +5,11 @@ import logoimg from "../../Assets/Images/logo.png";
 import { Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import "./style.css";
-import { useMediaQuery } from "@material-ui/core";
-import Menu from "@material-ui/icons/Menu";
-import { IconButton } from "@material-ui/core";
-import DrawersButton from "../../";
+// import { useMediaQuery } from "@material-ui/core";
+// import Menu from "@material-ui/icons/Menu";
+// import { IconButton } from "@material-ui/core";
+
 const Navbar = () => {
-  const [open, setOpen] = React.useState(false);
-  const hanleDrawerOpen = () => {
-    setOpen(true);
-  };
-  const handleDrawerClose = () => {
-    setOpen(false);
-  };
-  const match = useMediaQuery("(max-width: 960px)");
   return (
     <div>
       <Grid
@@ -37,41 +29,26 @@ const Navbar = () => {
           </div>
         </Grid>
         <Grid item md={4} xs={12} className="menu" justifyContent="center">
-          {match ? (
-            <IconButton
-              color="inherit"
-              aria-label="opendrawer"
-              onClick={hanleDrawerOpen}
-              edge="start"
-              style={{ color: "white" }}
-            >
-              <Menu />
-            </IconButton>
-          ) : (
-            <div className="menu-item">
-              <Link id="link" to="home">
-                Explore
-              </Link>
-              <Link id="link" to="home">
-                My profile
-              </Link>
-              <Link id="link" to="home">
-                Following
-              </Link>
-              <Link id="link" to="home">
-                Market
-              </Link>
-              <Link id="link" to="home">
-                How its work
-              </Link>
-              <Link id="link" to="home">
-                Community
-              </Link>
-            </div>
-          )}
-          <Grid className="Menu-button">
-            <DrawersButton open={open} handleDrawerClose={handleDrawerClose} />
-          </Grid>
+          <div className="menu-item">
+            <Link id="link" to="home">
+              Explore
+            </Link>
+            <Link id="link" to="home">
+              My profile
+            </Link>
+            <Link id="link" to="home">
+              Following
+            </Link>
+            <Link id="link" to="home">
+              Market
+            </Link>
+            <Link id="link" to="home">
+              How its work
+            </Link>
+            <Link id="link" to="home">
+              Community
+            </Link>
+          </div>
         </Grid>
 
         <Grid item md={3} xs={12} className="btns" justifyContent="center">
