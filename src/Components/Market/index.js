@@ -25,7 +25,14 @@ const Market = () => {
             </p>
           </Grid>
         </Grid>
-        <Grid container item xs={12} md={6} className="cotton">
+        <Grid
+          container
+          item
+          xs={12}
+          md={6}
+          className="cotton"
+          justifyContent="center"
+        >
           <img src={cotton} alt="" />
         </Grid>
       </Grid>

@@ -17,21 +17,30 @@ const Header = () => {
           alignItems="center"
         >
           <Grid item xs={12} className="content">
-            <h1>
-              WELCOME TO THE <br /> <span>SiliconBets</span>
-            </h1>
-            <h3>The easiest and most secure NFT marketpalce </h3>
-            <Button variant="contained" id="link3" className=" btn-primary">
-              {" "}
-              Explore
-            </Button>
-            <Button variant="contained" id="link3" className=" btn-secondary">
-              {" "}
-              Mint
-            </Button>
+            <div>
+              <h1>
+                WELCOME TO THE <br /> <span>SiliconBets</span>
+              </h1>
+              <h3>The easiest and most secure NFT marketpalce </h3>
+              <Button variant="contained" id="link3" className=" btn-primary">
+                {" "}
+                Explore
+              </Button>
+              <Button variant="contained" id="link3" className=" btn-secondary">
+                {" "}
+                Mint
+              </Button>
+            </div>
           </Grid>
         </Grid>
-        <Grid container item xs={12} md={6} className="cotton">
+        <Grid
+          container
+          item
+          xs={12}
+          md={6}
+          className="cotton"
+          justifyContent="center"
+        >
           <img src={cotton} alt="" />
         </Grid>
       </Grid>

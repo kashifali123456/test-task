@@ -15,3 +15,9 @@
   padding-top: 5rem;
   padding-left: 5rem;
 }
+@media (max-width: 600px) {
+  .Cnt {
+    padding-top: 4rem;
+    padding-left: 2rem;
+  }
+}

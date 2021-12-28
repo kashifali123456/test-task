@@ -21,3 +21,21 @@
 .Hdr {
   padding-top: 5rem;
 }
+@media (max-width: 600px) {
+  #link3 {
+    margin: 0rem;
+  }
+
+  .cotton img {
+    width: 85%;
+    height: 50vh;
+    padding-top: 2rem;
+  }
+
+  .content {
+    padding-left: 1rem;
+  }
+  .content h1 {
+    font-size: 22px;
+  }
+}
