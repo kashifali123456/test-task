@@ -1,0 +1,16 @@
+.content {
+  color: #fff;
+  align-items: center;
+  padding-left: 5rem;
+}
+.btn-primary {
+  background-color: white !important;
+  color: #140227 !important;
+}
+.btn-secondary {
+  background-color: #140227 !important;
+  color: #fff !important;
+}
+#link3 {
+  margin: 2rem;
+}

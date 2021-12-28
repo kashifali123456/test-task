@@ -1,0 +1,41 @@
+.nav-bar {
+  background-color: black;
+}
+.logo {
+  width: 230px;
+  height: 65px;
+}
+.search {
+  display: flex;
+  border: none;
+  background-color: #6604b9;
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+}
+#link {
+  color: white;
+  margin-left: 1rem;
+}
+.search-icon {
+  background-color: #6604b9;
+}
+#btns {
+  margin: 1rem;
+}
+.btn1 {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 10px !important;
+  background-color: #6604b9 !important;
+  color: white !important;
+}
+.btn2 {
+  width: 77px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 10px !important;
+  color: #6604b9 !important;
+  background-color: white !important;
+}
