@@ -1,10 +1,10 @@
 import React from "react";
+import { data } from "../../Data";
 import { Grid, Button } from "@material-ui/core";
 import "./style.css";
-import Card from "../Card";
-import { data } from "../../Data";
 import { Container } from "@material-ui/core";
-const Recent = () => {
+import Card from "../Card";
+const TopNft = () => {
   return (
     <Container maxWidth="xl">
       <Grid container>
@@ -24,4 +24,4 @@ const Recent = () => {
   );
 };
 
-export default Recent;
+export default TopNft;
